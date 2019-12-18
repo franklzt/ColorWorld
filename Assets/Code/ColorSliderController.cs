@@ -34,7 +34,7 @@ public class ColorSliderController : MonoBehaviour
         slideText.text = Mathf.FloorToInt((255.0f * value)).ToString();
 
         canvasColor[index] = value;
-        targetImage.color = new Color(Colors[0].r * canvasColor[0], Colors[1].g * canvasColor[1], Colors[2].b * canvasColor[2], 1.0f);
+        targetImage.color = new Color(Colors[0].r * canvasColor[0], Colors[1].g * canvasColor[1], Colors[2].b * canvasColor[2], Colors[3].a * canvasColor[3]);
     }
 
 }
