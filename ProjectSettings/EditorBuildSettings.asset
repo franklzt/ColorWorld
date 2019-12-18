@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 5940f054615dfe24095f75f07b7e8d26
+  - enabled: 1
+    path: Assets/Scenes/PlayColor.unity
+    guid: 89d0c34b4e15d7e40a8b90f2447a1aeb
   m_configObjects: {}
