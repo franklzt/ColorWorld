@@ -34,7 +34,17 @@ public class UIController : MonoBehaviour
             if(tempText != null)
             {
                 tempText.text = i.ToString();
-                float textColorIndex = (255 - i) / 255.0f;
+                float textColorIndex = 0.0f;
+
+                if (i < 128)
+                {
+                    textColorIndex = 1;
+                }
+                else
+                {
+                    textColorIndex = 0;
+                }
+
                 tempText.color = new Color(textColorIndex, textColorIndex, textColorIndex, 1.0f);
             }
         }
