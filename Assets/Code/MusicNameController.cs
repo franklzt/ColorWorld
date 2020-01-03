@@ -9,9 +9,9 @@ public class MusicNameController : MonoBehaviour
     public Button nextGenerateBtn;
     public Button toggleRootBtn;
 
-    string[] musicNames = { "A", "B", "C", "D", "E", "F", "G" };
+    string[] musicNames = { "C", "D", "E", "F", "G", "A", "B" };
     string[] numberNames = { "1", "2", "3", "4", "5", "6", "7" };
-    string[] singNames = { "Do", "Lei", "Mi", "Fa", "So", "La", "Si" };
+    string[] singNames = { "Do", "Re", "Mi", "Fa", "Sol", "La", "Si" };
 
     
     void Start()
