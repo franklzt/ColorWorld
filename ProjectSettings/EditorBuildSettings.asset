@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayColor.unity
     guid: 89d0c34b4e15d7e40a8b90f2447a1aeb
+  - enabled: 1
+    path: Assets/Scenes/Music.unity
+    guid: 9f2eaf67b402a6242855dbd605a0bafd
   m_configObjects: {}
