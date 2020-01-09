@@ -3,10 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
-    public int levelIndex = 0;
-
     public void LoadNextLevel()
     {
-        SceneManager.LoadScene(levelIndex);
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        currentIndex++;
+        if(currentIndex >= SceneManager.sceneCountInBuildSettings)
+        {
+            currentIndex = 0;
+        }
+        SceneManager.LoadScene(currentIndex);
     }
 }
